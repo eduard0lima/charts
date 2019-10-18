@@ -1,0 +1,22 @@
+redmineUsername: xpto
+redminePassword: xpto
+redmineEmail: xpto
+
+ingress:
+  enabled: true
+  hosts:
+  - name: xpto
+
+persistence:
+  enabled: true
+  storageClass: "xpto"
+  accessMode: ReadWriteOnce
+  size: 8Gi
+
+mariadb:
+  db:
+    password: xtpo
+      
+  master:
+    persistence:
+      storageClass: "xpto"
